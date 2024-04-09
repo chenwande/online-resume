@@ -18,7 +18,7 @@ export const ExportMenu: FC<ExportMenuProps> = () => {
           setIsPrinting(true);
           requestAnimationFrame(() => {
             openExportPDFHelp();
-          });
+          })
         }}
       >
         <img className={styles.icon} src={pdf} alt="" />

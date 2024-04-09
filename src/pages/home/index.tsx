@@ -46,9 +46,7 @@ const HomePage = () => {
       <header>
         <img src={headBg} alt="" />
         <div className={styles.content}>
-          {/* <div className={styles.title}>开源的</div> */}
           <div className={styles.title}>在线简历编辑工具</div>
-
           <div className={styles.actions}>
             <Button
               type="primary"
@@ -60,7 +58,7 @@ const HomePage = () => {
             <Button
               className={clsx(styles.action, styles.github)}
               onClick={() => {
-                window.open('https://github.com/');
+                window.open('https://github.com/chenwande/online-resume');
               }}
             >
               Github

@@ -17,8 +17,8 @@ export const TemplateCard: FC<TemplateCardProps> = ({ value, onUse }) => {
         <div className={styles.mask}>
           <div className={styles.name}>{value.name}</div>
           <div className={styles.tags}>
-            {value.tags?.map((tag, i) => {
-              return <Tag key={i}>{tag}</Tag>;
+            {value.tags?.map((tag: string) => {
+              return <Tag key={tag}>{tag}</Tag>;
             })}
           </div>
           <Button type="primary" onClick={onUse}>

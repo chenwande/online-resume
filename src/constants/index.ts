@@ -1,3 +1,5 @@
+import bg1 from '../assets/images/bg1.png';
+
 export const RESUME_CONFIG = {
   templateKey: 'developer-concise-1',
   templateName: '程序员创意简洁风格简历',
@@ -9,7 +11,7 @@ export const RESUME_CONFIG = {
         { key: 'ownerProjects', name: '个人项目', visible: true },
         { key: 'aboutMe', name: '关于我', visible: true },
       ],
-      backgroundImage: '/src/assets/images/bg1.png',
+      backgroundImage: bg1,
       githubVisible: true,
       blogVisible: true,
     },

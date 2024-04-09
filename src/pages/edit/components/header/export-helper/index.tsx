@@ -54,10 +54,14 @@ export function openExportPDFHelp() {
     cancelText: '不再提示',
     onCancel: () => {
       setFlag();
-      window.print();
+      setTimeout(() => {
+        window.print();
+      }, 500);
     },
     onOk: () => {
-      window.print();
+      setTimeout(() => {
+        window.print();
+      }, 500);
     },
   });
 }
