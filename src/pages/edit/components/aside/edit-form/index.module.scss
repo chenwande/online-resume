@@ -1,0 +1,15 @@
+.container {
+  width: calc(var(--form-width) - 140px);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 48px;
+
+  .workHistory {
+    padding: 16px;
+    background: #f9fafb;
+  }
+  .projects {
+    padding: 16px;
+    background: #f9fafb;
+  }
+}

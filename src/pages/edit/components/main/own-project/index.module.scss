@@ -1,0 +1,33 @@
+.container {
+  margin-top: 48px;
+  .project {
+    margin-bottom: 24px;
+    .title {
+      margin-bottom: 12px;
+      color: var(--color-text-primary);
+      display: inline-block;
+
+      background: #f2f2f2;
+      padding: 0 8px;
+      line-height: 1.8;
+      border-radius: 4px;
+      border-left: solid #dfdfdf 6px;
+    }
+    .content {
+      line-height: 1.65;
+      font-size: 16px;
+      color: var(--color-text-primary);
+      text-shadow: 0px 0px 3px rgba($color: #000000, $alpha: 0.06);
+    }
+  }
+  .blog {
+    margin-bottom: 12px;
+  }
+  a {
+    color: rgba($color: #000000, $alpha: 0.6);
+    text-decoration: underline;
+  }
+  a:hover {
+    color: rgba($color: #000000, $alpha: 0.6);
+  }
+}

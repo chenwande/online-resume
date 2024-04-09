@@ -1,0 +1,9 @@
+.index {
+  --header-height: 76px;
+  --form-width: 660px;
+  .main {
+    padding-top: var(--header-height);
+    padding-left: calc(var(--form-width));
+    background-color: #f1f1f1;
+  }
+}

@@ -1,0 +1,19 @@
+.index {
+  width: 600px;
+  height: 60vh;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  main {
+    overflow-y: auto;
+    .content {
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
