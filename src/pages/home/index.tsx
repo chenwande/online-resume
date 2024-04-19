@@ -4,7 +4,7 @@ import headBg from '/src/assets/images/head-bg.jpg';
 import { TemplateCard } from './components/template-card';
 import { useNavigate } from 'react-router-dom';
 import styles from './index.module.scss';
-import templateImage1 from '../../assets/images/template1.png';
+import templateImage1 from '../../assets/images/template1.jpeg';
 import { chooseFile } from '../../utils';
 import { useResumeConfigStore } from '../../store';
 

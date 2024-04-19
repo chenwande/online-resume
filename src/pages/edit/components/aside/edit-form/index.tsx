@@ -76,7 +76,7 @@ export const EditForm = () => {
   const handleProjectDelete = (index: number) => {
     Modal.confirm({
       title: '删除',
-      content: '是否确认删除该工作经历？',
+      content: '是否确认删除该个人项目？',
       okText: '确认',
       cancelText: '取消',
       onOk: () => {

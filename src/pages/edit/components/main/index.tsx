@@ -18,7 +18,7 @@ export const PreviewResume = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div className={styles.content} id="resume-container">
         <BaseInfo />
         <div className={styles.info}>
           {modules.map(
